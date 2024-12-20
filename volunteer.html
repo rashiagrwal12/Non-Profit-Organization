@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer - Our Non-Profit Organization</title>
+  <link rel="stylesheet" href="volunteer.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Volunteer With Us</h1>
+      <p>Your time and efforts make a big difference in our community.</p>
+    </div>
+  </header>
+
+  <!-- Volunteer Opportunities Section -->
+  <section id="volunteer-opportunities">
+    <div class="container">
+      <h2>Volunteer Opportunities</h2>
+      <p>We have various opportunities for you to get involved with our programs and events.</p>
+      
+      <div class="opportunity">
+        <h3>Community Outreach Volunteer</h3>
+        <p>Help us deliver essential goods to local communities in need. Volunteers will assist with sorting and distributing donations.</p>
+        <p><strong>Time Commitment:</strong> 5 hours per week</p>
+      </div>
+
+      <div class="opportunity">
+        <h3>Event Coordinator Volunteer</h3>
+        <p>Assist in organizing and managing fundraising events. Volunteers will help with event logistics, guest registration, and setup.</p>
+        <p><strong>Time Commitment:</strong> 3-4 hours per event</p>
+      </div>
+
+      <div class="opportunity">
+        <h3>Online Support Volunteer</h3>
+        <p>Provide remote assistance to our team with administrative tasks, data entry, and communication with supporters.</p>
+        <p><strong>Time Commitment:</strong> Flexible, 2-5 hours per week</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Volunteer Sign-up Form Section -->
+  <section id="volunteer-form">
+    <div class="container">
+      <h2>Sign Up to Volunteer</h2>
+      <p>Fill out the form below to become a volunteer. We will get back to you with more details.</p>
+
+      <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="opportunity">Select Volunteer Opportunity:</label>
+        <select id="opportunity" name="opportunity" required>
+          <option value="community-outreach">Community Outreach Volunteer</option>
+          <option value="event-coordinator">Event Coordinator Volunteer</option>
+          <option value="online-support">Online Support Volunteer</option>
+        </select>
+
+        <label for="availability">Availability (Hours per Week):</label>
+        <input type="number" id="availability" name="availability" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  
+</body>
+</html>

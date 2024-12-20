@@ -1,0 +1,128 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and overall layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Donation Options Section */
+  #donation-options {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  #donation-options h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .donation-option {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .donation-option h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .donation-option p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .donation-option form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .donation-option label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .donation-option input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .donation-option button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .donation-option button:hover {
+    background: #444;
+  }
+  
+  /* Donation Breakdown Section */
+  #donation-breakdown {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  #donation-breakdown h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #donation-breakdown ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #donation-breakdown li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /*}
+  
+
+  
+  
